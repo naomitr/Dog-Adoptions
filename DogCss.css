@@ -1,0 +1,104 @@
+/* This is the CSS for the website */
+
+/* font-family: 'Arvo', serif;
+font-family: 'Bree Serif', serif;
+font-family: 'Oxygen', sans-serif; */
+/* menu bar color: 285A85 */
+/* menu bar highlight: 5C8BAF */
+/* bgc: FCF8F3 */
+
+.mtitle{
+  text-align: center;
+  text-align: justify;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+h2{
+  text-align: center;
+  text-align: justify;
+  font-family: 'Oxygen', sans-serif;
+}
+
+p{
+  text-align: center;
+  text-align: justify;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.hptext {
+  text-align: center;
+  text-align: justify;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.hptitle {
+  text-align: left;
+  font-family: 'Arvo', serif;
+}
+
+body{
+  background-color: #FCF8F3
+}
+
+h1{
+  font-family: 'Bree Serif', serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #285A85;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Arvo', serif;
+}
+
+li a:hover:not(.active) {
+  background-color: #5C8BAF;
+}
+
+.active {
+  background-color: #DBC7AF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 1000px;
+   /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* -webkit-column-count: 3; /* Chrome, Safari, Opera */
+-moz-column-count: 3; /* Firefox */
+column-count: 3;
+
+-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+-moz-column-gap: 40px; /* Firefox */
+column-gap: 40px; */
